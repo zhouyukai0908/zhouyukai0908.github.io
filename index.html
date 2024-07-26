@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            margin-bottom: 1em;
+        }
+        .contact-form, .social-links, .gallery, .blog {
+            margin-top: 2em;
+        }
+        .social-links a {
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>个人网页</h1>
+    </header>
+    <nav>
+        <a href="#about">个人简介</a>
+        <a href="#experience">工作经历</a>
+        <a href="#education">教育背景</a>
+        <a href="#projects">项目作品</a>
+        <a href="#contact">联系方式</a>
+    </nav>
+    <section id="about">
+        <h2>个人简介</h2>
+        <p>在这里写下你的个人简介，介绍你的背景、兴趣爱好和职业目标。</p>
+    </section>
+    <section id="experience">
+        <h2>工作经历</h2>
+        <p>在这里列出你的工作经历，包括职位、公司名称和工作时间。</p>
+    </section>
+    <section id="education">
+        <h2>教育背景</h2>
+        <p>在这里列出你的教育背景，包括学校名称、专业和学位。</p>
+    </section>
+    <section id="projects">
+        <h2>项目作品</h2>
+        <div class="gallery">
+            <p>在这里展示你的项目作品，可以使用图片和简短的描述。</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>联系方式</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">邮箱：</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">留言：</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">提交</button>
+            </form>
+        </div>
+        <div class="social-links">
+            <h3>社交媒体链接</h3>
+            <a href="#">微信</a>
+            <a href="#">微博</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+    </section>
+    <section class="blog">
+        <h2>博客</h2>
+        <p>在这里可以展示你的博客文章。</p>
+    </section>
+    <footer>
+        <p>版权所有 &copy; 2024 你的名字</p>
+    </footer>
+</body>
+</html>
