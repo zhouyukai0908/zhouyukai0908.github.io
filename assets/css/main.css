@@ -644,7 +644,7 @@ section,
 }
 
 .about .img-fluid {
-  max-height: 400px; /* 设置最大高度 */
+  max-height: 300px; /* 设置最大高度 */
   width: auto;       /* 根据高度自动调整宽度 */
   object-fit: cover; /* 确保图片内容裁剪，不失真 */
 }
